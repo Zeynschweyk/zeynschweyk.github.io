@@ -18,33 +18,77 @@
         <br>
 
         <div>
-            <p><u><b>Algorithmic Trading</b></u></p>
-            <div style="padding-left: 15px;" class="purpose">
-                <u>Purpose</u>
-                <p>
-                    Manual trading is a risky but potentially lucrative field in which one can buy/sell securities, usually with relatively short holding periods, to profit from rapid price fluctuations. However, it is widely known that in addition to using, creating, and combining smart techniques and strategies, consistency and lack of emotion are key components to being profitable. This is one of the main reasons why so many new traders lose their savings. To combat this, we propose an automated solution.
-                </p>
+            <div class="idea">
+                <p><u><b>Algorithmic Trading</b></u></p>
+                <div style="padding-left: 15px;" class="purpose">
+                    <u>Purpose</u>
+                    <p>
+                        Manual trading is a risky but potentially lucrative field in which one can buy/sell securities, usually with relatively short holding periods, to profit from rapid price fluctuations. However, it is widely known that in addition to using, creating, and combining smart techniques and strategies, consistency and lack of emotion are key components to being profitable. This is one of the main reasons why so many new traders lose their savings. To combat this, we propose an automated solution.
+                    </p>
+                </div>
+    
+                <div style="padding-left: 15px;" class="summary">
+                    <u>Summary</u>
+                    <p>
+                        This project involves building a modular but highly extensive and flexible codebase to allow for easily creating, adding, backtesting, and the real-time running of trading algorithms, based on already existent or custom indicators. While this alone will eliminate factors such as emotion based decisions and cognitive trading biases, another equally important feature of this codebase would be the ability to build and customize our own dynamic risk-management systems, which will manage position sizes based on entry price, stop-loss, total liquidity, desired percentage of capital risked, and win rate. Implementing a system of this nature would help protect capital and optimize algorithms’ results.
+                    </p>
+                    <p>
+                        The goal of this project, for now, is to simply automate the process of trading, rather than necessarily diving into quantitative trading which relies on more complex mathematical models and machine learning techniques. While this may be of interest to us in the future, it would be more beneficial to focus on technical analysis-based automated trading for now.
+                    </p>
+                    <p>The main costs associated with this project would be subscribing to various APIs and frameworks, as well as hosting the actual code on a server, either of our own or using a cloud provider.</p>
+                </div>
+    
+                <div style="padding-left: 15px;" class="frameworks">
+                    <u>Frameworks and Services of Interest</u>
+                    <ul>
+                        <li><a href="//quantconnect.com" target="_blank">QuantConnect</a> - A platform that provides straightforward libraries for researching, backtesting, optimizing, and live trading pre-built and/or custom indicators and algorithms. It integrates with various brokers and deals with their respective APIs under the hood.</li>
+                        <li><a href="//alpaca.markets" target="_blank">Alpaca</a> - A broker with well-documented APIs for trading securities</li>
+                        <li><a href="//sec-api.io" target="_blank">SEC-API</a> - An API that allows for the access, processing, and analysis of SEC datasets and financial statements/filings</li>
+                        <li><a href="//aws.amazon.com" target="_blank">Amazon Web Services</a></li>
+                    </ul>
+                </div>
             </div>
+            <br>
 
-            <div style="padding-left: 15px;" class="summary">
-                <u>Summary</u>
-                <p>
-                    This proposal involves building a modular but highly extensive and flexible codebase to allow for easily creating, adding, backtesting, and the real-time running of trading algorithms, based on already existent or custom indicators. While this alone will eliminate factors such as emotion based decisions and cognitive trading biases, another equally important feature of this codebase would be the ability to build and customize our own dynamic risk-management systems, which will manage position sizes based on entry price, stop-loss, total liquidity, desired percentage of capital risked, and win rate. Implementing a system of this nature would help protect capital and optimize algorithms’ results.
-                </p>
+            <div class="idea">
+                <p><u><b>Metric Alert System (Metrix)</b></u></p>
+                <div style="padding-left: 15px;" class="purpose">
+                    <u>Purpose</u>
+                    <p>
+                        The majority, if not all, of stock tracking services force customers to subscribe to all of the services they provide, or very large bundles of them. For inexperienced and new investors and traders, as well as for those who need access to just a few metrics, this is overwhelmingly costly and daunting.
+                    </p>
+                    <p>
+                        Due to these reasons, I have personally written a few stock alert programs, for myself and a handful of friends, to monitor certain metrics and price movements. We've found it extremely useful and informative, and I think expanding on this could be very valuable to many others. There are again plenty of other platforms out there that track the metrics I’ve implemented and more, but they charge thousands of dollars or more per year because they expect that their customers want the full package that includes everything.
+                    </p>
+                </div>
+    
+                <div style="padding-left: 15px;" class="summary">
+                    <u>Summary</u>
+                    <p>
+                        This proposed system aims to lower the barrier of entry for investors and traders by offering a cheap, cost-effective, and flexible alternative to these services, with a “pay for what you use” model similar to that of AWS. The idea here is to create a mobile/web app that allows users to create groups of stocks and simply select the metrics/indicators and associated timeframes they would like to monitor for each stock in that group. For each metric, they can define certain notification rules. These will include:
+                    </p>
+                    <ul>
+                        <li>sending notifications daily, bi-daily, hourly, … etc, no matter the value of the metric</li>
+                        <li>sending notifications only whenever the metric value for a given ticker hits a desired level</li>
+                    </ul>
+                    <p>Each selected metric will have an associated cost/month, allowing users to only subscribe to the metrics they desire.</p>
+                    <p>The main costs associated with this system would be subscribing to various APIs to obtain the live data to calculate these metric/indicator values in real-time, as well as hosting the apps and metric calculation and notification servers.</p>
+                </div>
+    
+                <div style="padding-left: 15px;" class="frameworks">
+                    <u>Frameworks and Services of Interest</u>
+                    <ul>
+                        <li><a href="//sec-api.io" target="_blank">SEC-API</a> - An API that allows for the access, processing, and analysis of SEC datasets and financial statements/filings</li>
+                        <li><a href="//polygon.io" target="_blank">Polygon</a> - An API that allows access to real-time and historical market data quotes</li>
+                        <li><a href="//marketstack.com" target="_blank">MarketStack</a> - Another API that allows access to real-time and historical market data quotes</li>
+                        <li><a href="//react.dev">React</a></li>
+                        <li><a href="//reactnative.dev">React Native</a></li>
+                        <li><a href="//aws.amazon.com" target="_blank">Amazon Web Services</a></li>
+                    </ul>
+                </div>
             </div>
+            
 
-            <div style="padding-left: 15px;" class="frameworks">
-                <u>Frameworks and Services of Interest</u>
-                <ul>
-                    <li><a href="//quantconnect.com" target="_blank">QuantConnect</a> - A platform that provides straightforward libraries for researching, backtesting, optimizing, and live trading pre-built and/or custom indicators and algorithms. It integrates with various brokers and deals with their respective APIs under the hood.</li>
-                    <li><a href="//alpaca.markets" target="_blank">Alpaca</a> - A broker with well-documented APIs for trading securities</li>
-                    <li><a href="//sec-api.io" target="_blank">SEC-API</a> - An API that allows for the access, processing, and analysis of SEC datasets and financial statements/filings</li>
-
-                </ul>
-                <p>
-                    This proposal involves building a modular but highly extensive and flexible codebase to allow for easily creating, adding, backtesting, and the real-time running of trading algorithms, based on already existent or custom indicators. While this alone will eliminate factors such as emotion based decisions and cognitive trading biases, another equally important feature of this codebase would be the ability to build and customize our own dynamic risk-management systems, which will manage position sizes based on entry price, stop-loss, total liquidity, desired percentage of capital risked, and win rate. Implementing a system of this nature would help protect capital and optimize algorithms’ results.
-                </p>
-            </div>
 
         </div>
 
