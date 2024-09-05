@@ -10,7 +10,7 @@ main.fade-in {
 
 nav ul li a.active {
     text-decoration: underline;
-    text-decoration-color: red;
+    text-decoration-color: rgb(239, 99, 99);
     text-decoration-thickness: 2px;
     text-underline-offset: 4px;
 }
@@ -85,11 +85,11 @@ body {
 }
 
 a:link {
-color: red;
+color: rgb(239, 99, 99);
 }
 
 a:visited {
-color: red;
+color: rgb(239, 99, 99);
 }
 
 .social-links img {
@@ -154,7 +154,7 @@ embed {
         overflow-y: auto;
         padding: 0px; /* Zero padding makes sure you don't have to horizontally scroll */
         border-right: none;
-        border-bottom: 1px solid #990000;
+        border-bottom: 1px solid #EF6363;
         
     }
     
@@ -255,6 +255,11 @@ embed {
         overflow-y: auto;
     } */
 
+    header {
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
     .container {
         display: flex;
         height: 100%;;
@@ -262,7 +267,7 @@ embed {
 
     aside {
         position: fixed;
-        width: 160px;
+        width: 100px;
         height: 100vh; /* vh stands for viewport height (the height of the view) */
         padding: 40px 40px 40px 40px; /* top, right, bottom, left */
         border-right: 1px solid #990000;
@@ -271,7 +276,7 @@ embed {
 
     main {
         padding: 40px;
-        margin-left: 240px;
+        margin-left: 200px;
     }
 
     ul.publications-ul {
