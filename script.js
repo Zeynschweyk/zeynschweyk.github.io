@@ -49,6 +49,6 @@ document.addEventListener('DOMContentLoaded', () => {
         link.classList.add('active');
     }
 
-    loadPage('bio');
-    setActiveLink(document.querySelector('.nav-link[data-page="bio"]'));
+    loadPage('about');
+    setActiveLink(document.querySelector('.nav-link[data-page="about"]'));
 });
